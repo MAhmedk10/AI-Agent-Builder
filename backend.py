@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from agent import get_response_from_agent
 
 app = FastAPI(title="LangGraph AI Agent")
-ALLOWED_MODEL_NAMES=["llama3-70b-8192", "llama-3.3-70b-versatile", "gemini-2.5-flash","gemini-1.5-flash"]
+ALLOWED_MODEL_NAMES=["llama3-70b-8192", "llama-3.3-70b-versatile", "gemini-2.5-flash","gemini-1.5-flash","openai/gpt-oss-20b","openai/gpt-oss-120b"]
 
 
 class RequestState(BaseModel):

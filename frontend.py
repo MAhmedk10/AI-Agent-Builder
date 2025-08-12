@@ -6,7 +6,7 @@ st.write("Create and Interact with the AI Agents!")
 
 system_prompt=st.text_area("Define your AI Agent: ", height=70, placeholder="Type your system prompt here...")
 
-MODEL_NAMES_GROQ = ["llama-3.3-70b-versatile","llama3-70b-8192"]
+MODEL_NAMES_GROQ = ["openai/gpt-oss-20b","openai/gpt-oss-120b","llama-3.3-70b-versatile","llama3-70b-8192"]
 MODEL_NAMES_GEMINI = ["gemini-2.5-flash","gemini-1.5-flash"]
 
 provider=st.radio("Select Provider:", ("Groq", "Gemini"))
